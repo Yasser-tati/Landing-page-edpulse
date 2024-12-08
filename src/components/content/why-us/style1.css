@@ -1,0 +1,47 @@
+.whyus{
+  background-color: white;
+}
+
+.about1 {
+
+    background-color: white;
+    text-align: center;
+    height: 300px;
+}
+  
+.about1 h2 {
+  font-size: 180%;
+
+}
+
+  .about-cards1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+
+
+  }
+  
+  .card1 {
+    width: 70%; 
+    max-width: 400px; 
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-size: 1.1rem;
+  }
+
+  .card1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  
+  .card1 p {
+    color: #555;
+  }
+  

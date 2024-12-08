@@ -1,0 +1,109 @@
+.ContentContact {
+  padding: 50px;
+  background: linear-gradient(-135deg, rgb(173, 217, 232) 65%, white 50%);
+  max-height: 550px;
+  margin-top: -20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.2rem;
+  color: #053046;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.form {
+  padding: 30px;
+  margin: 30px auto;
+  width: 80%;
+  max-width: 900px;
+  text-align: center;
+  border: 1px solid #053046;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  margin-top: -10px;
+}
+
+.form:hover {
+  transform: translateY(-5px);
+}
+
+.form h2 {
+  font-size: 2.2rem;
+  color: #053046;
+  margin-bottom: 20px;
+}
+
+.form input,
+.form select,
+.form textarea {
+  display: block;
+  width: 80%;
+  margin: 12px auto;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}
+
+.form input:focus,
+.form select:focus,
+.form textarea:focus {
+  border-color: #053046;
+  outline: none;
+}
+
+.form button {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #053046; /* Dark blue background for buttons */
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #065b73; /* Darker shade of blue on hover */
+}
+
+.form select {
+  font-size: 1rem;
+  padding: 12px;
+}
+
+.form textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+/* Custom styling for modal buttons */
+.ant-modal-footer button {
+  background-color: #053046;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.ant-modal-footer button:hover {
+  background-color: #065b73;
+}

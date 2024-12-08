@@ -1,0 +1,185 @@
+/* Hero Footer Section */
+.herofooter {
+  background-color: #053046; /* Matches the dark blue tone */
+  color: #ffffff; /* White text for contrast */
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+/* Footer Content Layout */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Footer Logo Section */
+.footer-logo {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-logo-img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+/* Footer Info Section */
+.footer-info {
+  flex: 1;
+  text-align: left;
+  padding: 10px;
+}
+
+.footer-info h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer-info a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-info a:hover {
+  color: rgb(173, 217, 232); /* Hover effect for email link */
+}
+
+/* Footer Sectors Section */
+.footer-sectors {
+  flex: 1;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.footer-sectors h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-sectors ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-sectors li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+/* Footer Links Section */
+.footer-links {
+  flex: 1;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.footer-links h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: rgb(173, 217, 232); /* Hover effect for quick links */
+}
+
+/* Footer Social Media Section */
+.footer-social {
+  display: flex;
+  gap: 15px;
+  margin: 65px 0;
+}
+
+.footer-social a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  color: rgb(173, 217, 232); /* Hover effect for icons */
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/* Terms of Use Link */
+.terms-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.terms-link:hover {
+  color: rgb(173, 217, 232); /* Hover effect for terms link */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo,
+  .footer-info,
+  .footer-sectors,
+  .footer-links {
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+}
