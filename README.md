@@ -27,10 +27,6 @@ Cette page est conçue pour promouvoir des cours d'anglais et permettre une gest
 
 N'hésitez pas à soumettre des suggestions ou des demandes de modifications via des pull requests ou des issues.
 
-## Déploiement
-
-Consultez la page ici : [https://landing-page-edpulse.onrender.com/](https://landing-page-edpulse.onrender.com/)
-
 ## Contact
 
 Pour toute question, contactez : [yassertati@gmail.com](mailto:yassertati@gmail.com)
